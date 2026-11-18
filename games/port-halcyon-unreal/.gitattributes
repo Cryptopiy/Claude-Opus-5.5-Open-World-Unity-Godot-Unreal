@@ -1,0 +1,8 @@
+*.uasset binary
+*.umap binary
+*.fbx binary
+*.blend binary
+*.png binary
+*.wav binary
+*.zip binary
+*.log -text -diff

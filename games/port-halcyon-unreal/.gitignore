@@ -1,0 +1,46 @@
+# Unreal Engine transient / generated data
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+!Build/**/*.ico
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Generated IDE / project files (regenerate with GenerateProjectFiles)
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Packaged builds
+Packaged/
+Windows/
+WindowsNoEditor/
+
+# Local recovery snapshots and Python bytecode
+.opus-5.5-gta-runs/**/handover_source_backup.zip
+.opus-5.5-gta-runs/**/codex_*/Vehicles/
+.opus-5.5-gta-runs/**/codex_*/Weapons/
+.opus-5.5-gta-runs/**/codex_*/Acc/
+__pycache__/
+*.pyc
+*.ini.ctl
+
+# Blender automatic backups (the master .blend itself IS tracked)
+*.blend1
+*.blend2
+
+# OS noise
+Thumbs.db
+.DS_Store
